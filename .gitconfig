@@ -1,0 +1,31 @@
+[user]
+	name = Youssef
+	email = Yousef.Alijani@ZoodFood.com
+[core]
+  # editor = code --wait
+  excludeFile = ~/.gitignore_global
+  paper = diff-so-fancy | less --tabs=4 -RFX
+  pager = diff-so-fancy | less --tabs=4 -RFX
+[log]
+	abbrevCommit = yes
+[web]
+  browser = chrome
+[color]
+	ui = auto
+[alias]
+	gst = status
+	st = status
+	sla = log --oneline --decorate --graph --all
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[gitflow "branch"]
+	master = master
+	develop = develop
+[gitflow "prefix"]
+	feature = feature/
+	release = release/
+	hotfix = hotfix/
+	support = support/
+	versiontag = 
+[gui]
+	wmstate = normal
+	geometry = 889x447+5+28 204 201
